@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  margin-top: 20rem;
+}
+
+.key {
+  cursor: pointer;
+  font: 16px "Open Sans", "Lucida Grande", "Arial", sans-serif;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 40px;
+  height: 150px;
+  text-align: center;
+  box-shadow: 2px 2px darkgray;
+  display: inline-block;
+  position: relative;
+  margin-right: 3px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.black {
+  background: black;
+  color: white;
+}
+
+.white {
+  background: white;
+}
